@@ -12,6 +12,8 @@
 		E12A70552C7D6125009987DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A70542C7D6125009987DD /* ViewController.swift */; };
 		E12A705A2C7D6128009987DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12A70592C7D6128009987DD /* Assets.xcassets */; };
 		E12A705D2C7D6128009987DD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E12A705C2C7D6128009987DD /* Base */; };
+		E1C6FCCB2C826E3300E9608E /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C6FCCA2C826E3300E9608E /* HourlyForecastCollectionViewCell.swift */; };
+		E1C6FCCD2C82720600E9608E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C6FCCC2C82720600E9608E /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E12A70592C7D6128009987DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E12A705C2C7D6128009987DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E12A705E2C7D6128009987DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C6FCCA2C826E3300E9608E /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1C6FCCC2C82720600E9608E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E12A70502C7D6125009987DD /* AppDelegate.swift */,
 				E12A70522C7D6125009987DD /* SceneDelegate.swift */,
 				E12A70542C7D6125009987DD /* ViewController.swift */,
+				E1C6FCCA2C826E3300E9608E /* HourlyForecastCollectionViewCell.swift */,
+				E1C6FCCC2C82720600E9608E /* Color+Extensions.swift */,
 				E12A70592C7D6128009987DD /* Assets.xcassets */,
 				E12A705B2C7D6128009987DD /* LaunchScreen.storyboard */,
 				E12A705E2C7D6128009987DD /* Info.plist */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C6FCCD2C82720600E9608E /* Color+Extensions.swift in Sources */,
 				E12A70552C7D6125009987DD /* ViewController.swift in Sources */,
 				E12A70512C7D6125009987DD /* AppDelegate.swift in Sources */,
+				E1C6FCCB2C826E3300E9608E /* HourlyForecastCollectionViewCell.swift in Sources */,
 				E12A70532C7D6125009987DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
